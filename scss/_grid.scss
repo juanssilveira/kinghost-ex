@@ -1,0 +1,10 @@
+.container {
+  $containerMaxWidth: 121.6rem;
+  $paddingInline: 24px;
+
+  width: 100%;
+  max-width: calc($containerMaxWidth + $paddingInline * 2);
+
+  margin: 0 auto;
+  padding: 0 $paddingInline;
+}

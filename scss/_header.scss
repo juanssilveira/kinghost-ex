@@ -1,0 +1,45 @@
+.l-header {
+  padding: 4.8rem 0;
+
+  color: #fff;
+  background-color: var(--primary-500);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    gap: 5.6rem;
+    
+    a {
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+
+      &.trial-link {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    & {
+      padding: 3.2rem 0;
+    }
+
+    .container {
+      justify-content: center;
+    }
+
+    .logo {
+      max-width: 150px;
+    }
+  
+    nav {
+      display: none;
+    } 
+  }
+}
